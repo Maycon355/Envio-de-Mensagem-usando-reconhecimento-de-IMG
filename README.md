@@ -1,17 +1,13 @@
-Olá Devs,
+Hi Devs,
 
+I developed this application to send messages through whatsapp, using the selenium and webdriver libraries.
 
-Desenvolvi essa aplicação para realizar o envio de mensagem pelo whatsapp, usando as bibliotecas selenium e webdriver.
+Project takes the following steps:
 
+It reads the SQL to identify which customers will receive, message in case I deliver all invoiced for the day.
 
-Projeto faz os seguintes passoos:
+After identifying the customers, he opens Google Chrome and starts sending message by message to the customers, notifying them that their order has been invoiced.
 
-1. Faz a leitura do SQL para identificar quais clientes vão receber mensagem, no caso eu coloquei todos pedidos faturados do dia.
-2. Após identificar os clientes, ele abre o Google Chrome e começa a disparar mensagem por mensagem para os clientes, avisando que seu pedido foi faturado.
-3. Ele usa o reconhecimento de imagens, um bot mais inteligente para não haver erros ao envio.
+It uses image recognition, a smarter bot so there are no errors when sending.
 
-
-O Bot tem um sistema de Logs, para identificar o status das mensagem.
-
-
-
+The Bot has a Log system to identify the status of messages.
